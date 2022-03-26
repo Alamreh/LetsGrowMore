@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FaceDetection</string>
+    <string name="xaxisstr">X :</string>
+    <string name="yaxisstr">Y :</string>
+    <string name="zaxisstr">Z :</string>
+    <string name="smilestr">Smile :</string>
+    <string name="left_eyestr">Left Eye Open :</string>
+    <string name="right_eyestr">Right Eye Open :</string>
+    <string name="faceidstr">FaceID :</string>
+</resources>
