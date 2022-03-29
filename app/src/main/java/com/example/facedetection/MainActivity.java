@@ -49,22 +49,22 @@ public class MainActivity extends AppCompatActivity {
         camera_btn=findViewById( R.id.open_camera_btn );
 
 //
-        camera_btn.setOnClickListener( new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+//        camera_btn.setOnClickListener( new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+////
+//                Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+//                try {
+//                    startActivityForResult(takePictureIntent,   100);
+//                } catch (ActivityNotFoundException e) {
+//                    Toast.makeText( MainActivity.this,"Error:"+e.getMessage() ,Toast.LENGTH_SHORT).show();
+//                }
 //
-                Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-                try {
-                    startActivityForResult(takePictureIntent,   100);
-                } catch (ActivityNotFoundException e) {
-                    Toast.makeText( MainActivity.this,"Error:"+e.getMessage() ,Toast.LENGTH_SHORT).show();
-                }
-
-
-
-
-            }
-        } );
+//
+//
+//
+//            }
+//        } );
     }
 
 
