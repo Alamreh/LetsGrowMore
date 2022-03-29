@@ -1,5 +1,6 @@
 package com.example.facedetection;
 
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -58,6 +59,8 @@ public class MainActivity extends AppCompatActivity {
                 } catch (ActivityNotFoundException e) {
                     Toast.makeText( MainActivity.this,"Error:"+e.getMessage() ,Toast.LENGTH_SHORT).show();
                 }
+
+
 
 
             }
@@ -147,6 +150,17 @@ public class MainActivity extends AppCompatActivity {
                 });
 
 
+
+    }
+
+    public void openCamera(View view) {
+
+        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        try {
+            startActivityForResult(takePictureIntent,   100);
+        } catch (ActivityNotFoundException e) {
+            Toast.makeText( MainActivity.this,"Error:"+e.getMessage() ,Toast.LENGTH_SHORT).show();
+        }
 
     }
 }

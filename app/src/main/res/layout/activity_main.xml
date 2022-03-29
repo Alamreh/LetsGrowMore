@@ -17,6 +17,7 @@
         android:backgroundTint="#000000"
         android:padding="16dp"
         android:text="Open Camera"
+        android:onClick="openCamera"
         android:textSize="20dp"
         android:textStyle="italic"></Button>
 
