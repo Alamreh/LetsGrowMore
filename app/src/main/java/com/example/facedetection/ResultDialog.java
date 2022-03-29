@@ -43,13 +43,7 @@ public class ResultDialog extends DialogFragment {
 
 
         ShowData();
-        // To get the result text
-        // after final face detection
-        // and append it to the text view.
 
-
-        // Onclick listener so as
-        // to make a dismissable button
 
         okBtn.setOnClickListener( new View.OnClickListener() {
             @Override
